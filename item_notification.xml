@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="3dp"
+    android:elevation="10dp"
+    android:background="#FADDC2"
+    >
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#B691B2"
+        tools:ignore="ContentDescription"/>
+    <TextView
+        android:id="@+id/txtday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30sp"
+        android:paddingEnd="10sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="5sp"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:drawableRightCompat="@drawable/ic_more" />
+    <TextView
+        android:id="@+id/txtdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30sp"
+        android:paddingEnd="10sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:layout_marginTop="25sp"
+        android:text=""
+        tools:ignore="RtlSymmetry" />
+</androidx.cardview.widget.CardView>

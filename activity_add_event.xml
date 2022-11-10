@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15sp"
+    android:background="@color/grey_400"
+    android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/periodo"
+                android:textSize="25sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginBottom="10sp"
+                />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25sp"
+        android:layout_marginRight="10sp">
+
+        <Button
+            android:id="@+id/btn_close_event"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="5sp"
+            android:background="@drawable/ic_close" />
+    </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:hint="Agregar Titulo"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/bg_buttom_event"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:hint="Seleccionar fecha de inicio"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/bg_buttom_event"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"
+                android:drawableRight="@drawable/ic_expand"
+                android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:hint="Seleccionar fecha final"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/bg_buttom_event"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:drawableRight="@drawable/ic_expand"/>
+
+            <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="45sp"
+                 android:hint="Agregar descripción/sintomas"
+                android:layout_marginBottom="10sp"
+                android:background="@drawable/bg_buttom_event"
+                android:paddingLeft="15sp"
+                android:paddingRight="15sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="@drawable/bg_button"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="10sp"
+        android:text="Aceptar"/>
+</LinearLayout>

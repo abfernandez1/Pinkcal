@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "307412997806",
+    "project_id": "planhall-2feb0",
+    "storage_bucket": "planhall-2feb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307412997806:android:831f72825ad5e860833f3f",
+        "android_client_info": {
+          "package_name": "com.example.planhall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307412997806-hs3au8kbgdh6n085b45cl8ua3cd7oeam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.planhall",
+            "certificate_hash": "763591e0edfd2b9d97633d766fdbb6a96b38f513"
+          }
+        },
+        {
+          "client_id": "307412997806-8m3k33jcmnslgfn52o2hr4dso1d4marh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDB7B9lp6Kpd37-5UymHIQIcR6GXLIJIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307412997806-8m3k33jcmnslgfn52o2hr4dso1d4marh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

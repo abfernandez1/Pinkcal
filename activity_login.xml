@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_pinkcal_para_login"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text_signin"
+        android:textSize="35sp"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_white_radius"
+        android:elevation="10sp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edit_email"
+        android:inputType="textEmailAddress"
+        android:nextFocusDown="@+id/password"
+        android:importantForAutofill="yes"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck,TextContrastCheck"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_white_radius"
+        android:elevation="10sp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/edit_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        tools:ignore="LabelFor,TextFields,TouchTargetSizeCheck,TextContrastCheck"
+        android:textColor="@color/black"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="30sp"
+        android:buttonTint="#dd68a7"
+        android:text="@string/ckeck_password"
+        android:textColor="#000"
+        tools:ignore="TouchTargetSizeCheck"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_button"
+        android:elevation="20sp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/text_signin"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:onClick="MainActivity"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20sp">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_signup2"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:onClick="Logup"
+            android:text="@string/text_signup3"
+            android:textColor="#b691b2"
+            tools:ignore="UsingOnClickInXml,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>
